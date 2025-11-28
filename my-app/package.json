@@ -6,7 +6,7 @@
     "generate:datasource": "tsx src/generate.ts datasource",
     "generate:ui": "tsx src/generate.ts ui",
     "dev": "nodemon",
-    "start": "tsx src/index.ts",
+    "start": "node dist/index.js",
     "build": "tsc",
     "eject": "llamaindex-server eject"
   },

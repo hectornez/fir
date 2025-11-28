@@ -1,4 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "runtime": "nodejs20.x",
+  "regions": ["sfo1"],
+  "functions": {
+    "src/index.ts": {
+      "runtime": "nodejs20.x"
+    }
+  }
 }
