@@ -1,11 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "env": {
-    "LLAMA_CLOUD_API_KEY": "@llama_cloud_api_key",
-    "LLAMA_CLOUD_INDEX_NAME": "@llama_cloud_index_name",
-    "LLAMA_CLOUD_PROJECT_NAME": "@llama_cloud_project_name",
-    "MODEL": "@model",
-    "EMBEDDING_MODEL": "@embedding_model"
-  }
+  "outputDirectory": "dist"
 }
