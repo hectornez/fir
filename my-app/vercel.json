@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "other",
+  "framework": "nextjs",
   "env": {
     "LLAMA_CLOUD_API_KEY": "@llama_cloud_api_key",
     "LLAMA_CLOUD_INDEX_NAME": "@llama_cloud_index_name",
