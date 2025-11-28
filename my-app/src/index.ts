@@ -11,7 +11,4 @@ new LlamaIndexServer({
     componentsDir: "components",
     devMode: true,
   },
-  llamaCloud: {
-    outputDir: "output/llamacloud",
-  },
 }).start();
